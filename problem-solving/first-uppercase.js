@@ -10,7 +10,7 @@ const capitalize = (word) => {
       newCapitalize += changeToArray[i].toUpperCase();
     } else {
       newCapitalize +=
-        changeToArray[i].slice(0, 1).toUpperCase() +
+        changeToArray[i][0].toUpperCase() +
         changeToArray[i].slice(1);
     }
     newCapitalize += ' ';

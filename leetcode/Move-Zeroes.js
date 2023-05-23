@@ -4,7 +4,6 @@ const moveZero = (nums) => {
   const numsOut = [];
   const saveZero = [];
   const newNums = [...nums];
-  newNums.sort();
 
   for (let i = 0; i < newNums.length; i++) {
     if (newNums[i] === 0) {
